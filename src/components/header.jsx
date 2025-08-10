@@ -21,25 +21,25 @@ const ShopifyHeader = () => {
   const categories = [
     { 
       name: 'Women', 
-      href: '/collections/women',
+      href: '/womens',
       dropdown: ['Dresses', 'Tops & Blouses', 'Jeans & Pants', 'Shoes', 'Accessories', 'Sale']
     },
     { 
       name: 'Men', 
-      href: '/collections/men',
+      href: '/mens',
       dropdown: ['Shirts', 'Pants & Jeans', 'Jackets', 'Shoes', 'Accessories', 'Sale']
     },
     { 
       name: 'Kids', 
-      href: '/collections/kids',
+      href: '/kids',
       dropdown: ['Boys', 'Girls', 'Baby', 'Shoes', 'Toys & Games']
     },
     { 
       name: 'Home & Living', 
-      href: '/collections/home',
+      href: '/home',
       dropdown: ['Furniture', 'Decor', 'Kitchen', 'Bedding', 'Storage']
     },
-    { name: 'Sale', href: '/collections/sale', highlight: true }
+    { name: 'Sale', href: '/sale', highlight: true }
   ];
 
   return (
@@ -60,11 +60,11 @@ const ShopifyHeader = () => {
           <div className="flex items-center space-x-6">
             <div className="flex items-center space-x-2">
               <Phone className="w-3 h-3" />
-              <span>+1 (555) 123-4567</span>
+              <span>+92 (340) 0050708</span>
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="w-3 h-3" />
-              <span>support@yourstore.com</span>
+              <span>talhabajwa1622@gmail.com</span>
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="w-3 h-3" />
@@ -99,15 +99,15 @@ const ShopifyHeader = () => {
               <div className="flex items-center space-x-3 group cursor-pointer">
                 <div className="relative">
                   <div className="w-12 h-12 bg-gradient-to-br from-purple-600 to-blue-600 rounded-2xl flex items-center justify-center transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-2 shadow-lg">
-                    <span className="text-white font-bold text-xl">S</span>
+                    <span className="text-white font-bold text-xl">TB</span>
                   </div>
                   <div className="absolute -top-1 -right-1 w-4 h-4 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full animate-pulse" />
                 </div>
                 <div>
                   <h1 className="text-2xl font-bold bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">
-                    StyleHub
+                    TB
                   </h1>
-                  <p className="text-xs text-gray-500 -mt-1">Premium Fashion</p>
+                  <p className="text-xs text-gray-500 -mt-1">COLLECTION</p>
                 </div>
               </div>
             </div>
@@ -176,7 +176,7 @@ const ShopifyHeader = () => {
                           {category.dropdown.map((item) => (
                             <a
                               key={item}
-                              href={`/collections/${item.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}`}
+                              href={`/${item.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')}`}
                               className="block px-4 py-3 text-sm text-gray-700 hover:text-purple-600 hover:bg-purple-50 transition-all duration-200 rounded-lg mx-2"
                             >
                               {item}
