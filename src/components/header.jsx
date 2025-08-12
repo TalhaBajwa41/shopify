@@ -351,40 +351,6 @@ const ShopifyHeader = () => {
               </div>
             ))}
           </div>
-
-          {/* Trust Badges */}
-          <div className="bg-white rounded-3xl shadow-lg p-8">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-              <div className="flex flex-col items-center space-y-2">
-                <div className="w-12 h-12 bg-green-100 rounded-2xl flex items-center justify-center">
-                  <span className="text-green-600 text-2xl">✓</span>
-                </div>
-                <h4 className="font-semibold text-gray-800">Free Shipping</h4>
-                <p className="text-sm text-gray-600">On orders $75+</p>
-              </div>
-              <div className="flex flex-col items-center space-y-2">
-                <div className="w-12 h-12 bg-blue-100 rounded-2xl flex items-center justify-center">
-                  <span className="text-blue-600 text-2xl">↺</span>
-                </div>
-                <h4 className="font-semibold text-gray-800">Easy Returns</h4>
-                <p className="text-sm text-gray-600">30-day policy</p>
-              </div>
-              <div className="flex flex-col items-center space-y-2">
-                <div className="w-12 h-12 bg-purple-100 rounded-2xl flex items-center justify-center">
-                  <span className="text-purple-600 text-2xl">🔒</span>
-                </div>
-                <h4 className="font-semibold text-gray-800">Secure Payment</h4>
-                <p className="text-sm text-gray-600">SSL encrypted</p>
-              </div>
-              <div className="flex flex-col items-center space-y-2">
-                <div className="w-12 h-12 bg-yellow-100 rounded-2xl flex items-center justify-center">
-                  <span className="text-yellow-600 text-2xl">★</span>
-                </div>
-                <h4 className="font-semibold text-gray-800">5-Star Reviews</h4>
-                <p className="text-sm text-gray-600">10k+ customers</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </>

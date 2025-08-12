@@ -45,10 +45,10 @@ const ShopifyFooter = () => {
     {
       title: 'Shop',
       links: [
-        { name: 'Women\'s Fashion', href: '/collections/women' },
-        { name: 'Men\'s Fashion', href: '/collections/men' },
-        { name: 'Kids & Baby', href: '/collections/kids' },
-        { name: 'Home & Living', href: '/collections/home' },
+        { name: 'Women\'s Fashion', href: '/womens' },
+        { name: 'Men\'s Fashion', href: '/mens' },
+        { name: 'Kids & Baby', href: '/kids' },
+        { name: 'Home & Living', href: '/collec/home' },
         { name: 'Sale Items', href: '/collections/sale' },
         { name: 'New Arrivals', href: '/collections/new' }
       ]
