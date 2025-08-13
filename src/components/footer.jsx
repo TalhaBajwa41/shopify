@@ -311,6 +311,26 @@ const ShopifyFooter = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 mt-12">
           <div className="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
+            <div className="border-t border-gray-800 pt-6 mt-8">
+          <div className="flex flex-wrap justify-center items-center gap-8 text-gray-500 text-xs">
+            <div className="flex items-center space-x-2">
+              <Shield className="w-4 h-4" />
+              <span>McAfee SECURE</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <Star className="w-4 h-4 fill-current text-yellow-500" />
+              <span>Trustpilot 4.8/5</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <CreditCard className="w-4 h-4" />
+              <span>PCI Compliant</span>
+            </div>
+            <div className="flex items-center space-x-2">
+              <Truck className="w-4 h-4" />
+              <span>Carbon Neutral Shipping</span>
+            </div>
+          </div>
+        </div>
             
             {/* Copyright */}
             <div className="flex flex-col lg:flex-row items-center space-y-2 lg:space-y-0 lg:space-x-6 text-gray-400 text-sm">
